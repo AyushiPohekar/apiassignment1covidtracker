@@ -1,0 +1,38 @@
+.bodycontainer{
+    background-color: black;
+}
+
+#myform{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+   
+    margin:0 auto;
+    margin-top: 5rem;
+    width:20rem
+    
+}
+
+.card{
+    width:40rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+    height: 15rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ 
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color:rgb(241, 207, 213);
+    width:30rem;
+    height: 10rem;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
